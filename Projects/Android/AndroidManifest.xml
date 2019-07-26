@@ -7,6 +7,8 @@
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="25" />
 	<!-- Tell the system this app requires OpenGL ES 3.1. -->
 	<uses-feature android:glEsVersion="0x00030001" android:required="true"/>
+	<!-- Tells the system this app is a Quest app/6DOF app -->
+	<uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
 	<!-- Network access needed for OVRMonitor -->
 	<uses-permission android:name="android.permission.INTERNET" />
 	<!-- Volume Control -->
